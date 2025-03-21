@@ -1,0 +1,9 @@
+- For this tutorial we are going to use the same downloaded text just with different commands.
+- in terminal type in the 'vim' command + your txt file name to open the file
+- In order to save and exit your file, simply type :wq and press enter
+- When you are in your text, press 'y' when highlighting text to copy it. To paste, use 'ctrl' + 'shift' + P to paste before your cursor. Finally, to cut, highlight text and press 'd'.
+- If you would like to return to the beginning of your text, press 'gg' to go to the beginning of the file. To go to the end of a file, use control shift G to jump to the end.
+- If you wish to find a particular target string, type in '/' and then the text you are looking for and hit enter.
+- In order to find and replace text in a file, use this command :%s/x/y/g where x is what you would like to find, and y is what you are going to replace it with
+- Within vim, you can create keybinds using the 'vimrc' file, to enter this file and add keybinds enter the command 'vim vimrc'. Once you have entered the vimrc, the easiest way to change a keybind is to type ':map' + x + y, where x is they key you would like to map to the function of y. The example shown below, remaps x, to dd which deletes a line.![[map1.png]] 
+- To input a new control command in insert mode, do what I did below which maps 'control' + 'x'  to delete a single character.![[map2.png]]
